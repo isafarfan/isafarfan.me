@@ -50,3 +50,7 @@ span.title {
 ol.tasks li {
   padding-bottom: 1em;
 }
+
+.templateux-footer {
+  padding: 0;
+}
