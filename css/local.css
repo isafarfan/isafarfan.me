@@ -42,7 +42,7 @@
   padding-left: 1em;
 }
 
-ol.tasks span.title {
+span.title {
   font-weight: bold;
   display: block;
 }
