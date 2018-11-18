@@ -1,5 +1,5 @@
 .templateux-navbar {
-  position: fixed;
+  position: inherit;
   background-color: #fff;
   padding: 18px 0;
 }
