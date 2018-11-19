@@ -1,5 +1,5 @@
 .templateux-navbar {
-  position: fixed;
+  position: inherit;
   background-color: #fff;
   padding: 18px 0;
 }
@@ -26,7 +26,7 @@
 .if-ribbon .caption {
   display: block;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 18px;
   color: #555;
   font-weight: bold;
 }
