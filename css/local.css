@@ -1,3 +1,20 @@
+
+.navigation{
+    border-top: 1px solid #F4F4F4;
+    border-bottom: 1px solid #F4F4F4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.navigation h3{
+  color: #dc3545;
+
+}
+
+.navigation p{
+  color: #555;
+}
+
 .project {
   position:relative;
 
