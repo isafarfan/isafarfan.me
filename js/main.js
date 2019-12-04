@@ -18,7 +18,7 @@ jQuery(document).ready(function($){
 
   $('a.js-smoothscroll[href^="#"]').click(function () {
     $root.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top - 40
+      scrollTop: $( $.attr(this, 'href') ).offset().top - 40
     }, 500);
 
     return false;
@@ -96,10 +96,22 @@ jQuery(document).ready(function($){
 
     }
 
-  	if ( $('.templateux-menu').is(':visible') ) {
-  		$('.js-templateux-menu').fadeOut(300);
-  	} else {
-  		$('.js-templateux-menu').fadeIn(300);
-  	}
+    if ( $('.templateux-menu').is(':visible') ) {
+      $('.js-templateux-menu').fadeOut(300);
+    } else {
+      $('.js-templateux-menu').fadeIn(300);
+    }
   })
+
+  // Magnific
+  $('.image-popup').magnificPopup({
+    type: 'image',
+    closeOnContentClick: true,
+    mainClass: 'mfp-img-mobile',
+    image: {
+      verticalFit: true
+    }
+
+  });
+
 });
