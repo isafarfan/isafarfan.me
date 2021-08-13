@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5 { color: #fff; }
 
 a { -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
-a:hover, a:active, a:focus { text-decoration: none; outline: none; }
+a:hover, a:active, a:focus { color: #6610f2;text-decoration: none; outline: none; }
 
 .templateux-navbar { position: absolute; top: 0; left: 0; width: 100%; padding: 35px 0; z-index: 99999; }
 
@@ -40,7 +40,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .templateux-menu ul li:last-child a { margin-right: 0; }
 
-@media (max-width: 767.98px) { .templateux-navbar .templateux-menu { position: fixed; width: 100%; background-color: #fff; top: 0; left: 0; margin: 0; text-align: left; height: 100vh; min-height: 400px; padding: 15px; display: none; padding-top: 100px; overflow-y: scroll; }
+@media (max-width: 767.98px) { .templateux-navbar .templateux-menu { position: fixed; width: 100%; background-color: #2b303a; top: 0; left: 0; margin: 0; text-align: left; height: 100vh; min-height: 400px; padding: 15px; display: none; padding-top: 100px; overflow-y: scroll; }
   .templateux-navbar .templateux-menu ul { margin-left: 40px; }
   .templateux-navbar .templateux-menu ul li { display: block; margin-bottom: 10px; }
   .templateux-navbar .templateux-menu ul li a { padding: 10px 0 2px 0; font-size: 18px; display: inline-block; } }
@@ -49,21 +49,21 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar.navbar-light .site-logo a { color: #fff; }
 
-.templateux-navbar.navbar-light .hamburger .hamburger-inner, .templateux-navbar.navbar-light .hamburger .hamburger-inner::before, .templateux-navbar.navbar-light .hamburger .hamburger-inner::after { background-color: #fff; }
+.templateux-navbar.navbar-light .hamburger .hamburger-inner, .templateux-navbar.navbar-light .hamburger .hamburger-inner::before, .templateux-navbar.navbar-light .hamburger .hamburger-inner::after { background-color: #2b303a; }
 
 .templateux-navbar.navbar-light .templateux-menu ul li a { color: #fff; }
 
 .menu-open .templateux-navbar { position: fixed; left: 0; top: 0; }
 
-@media (max-width: 767.98px) { .menu-open .site-logo a { color: #000 !important; } }
+@media (max-width: 767.98px) { .menu-open .site-logo a { color: #fff !important; } }
 
-.menu-open .navbar-light .hamburger .hamburger-inner, .menu-open .navbar-light .hamburger .hamburger-inner::before, .menu-open .navbar-light .hamburger .hamburger-inner::after { background-color: #000; }
+.menu-open .navbar-light .hamburger .hamburger-inner, .menu-open .navbar-light .hamburger .hamburger-inner::before, .menu-open .navbar-light .hamburger .hamburger-inner::after { background-color: #fff; }
 
 .menu-open .templateux-menu li { opacity: 0; visibility: hidden; margin-left: -10px; position: relative; -webkit-transition: .3s all ease-in-out; -o-transition: .3s all ease-in-out; transition: .3s all ease-in-out; }
 
 .menu-open .templateux-menu li.staggard { opacity: 1; visibility: visible; margin-left: 0px; }
 
-@media (max-width: 767.98px) { .menu-open .templateux-menu li a { color: #000 !important; } }
+@media (max-width: 767.98px) { .menu-open .templateux-menu li a { color: #fff !important; } }
 
 .templateux-hero { background-size: cover; background-repeat: no-repeat; background-position: center center; position: relative; overflow: hidden; }
 
@@ -231,7 +231,7 @@ textarea.form-control { height: inherit; }
 
 .custom-pagination li a, .custom-pagination .prev a, .custom-pagination .next a { width: 40px; height: 40px; line-height: 40px; padding: 0; margin: 0; border-radius: 50% !important; font-size: 16px; }
 
-.custom-pagination li.active a, .custom-pagination .prev.active a, .custom-pagination .next.active a { display: block; width: 40px; height: 40px; line-height: 40px; padding: 0; margin: 0; border-radius: 50% !important; font-size: 16px; background: #dc3545; color: #fff; }
+.custom-pagination li.active a, .custom-pagination .prev.active a, .custom-pagination .next.active a { display: block; width: 40px; height: 40px; line-height: 40px; padding: 0; margin: 0; border-radius: 50% !important; font-size: 16px; background: #indigo; color: #fff; }
 
 .custom-pagination li.active a:hover, .custom-pagination li.active a:focus, .custom-pagination .prev.active a:hover, .custom-pagination .prev.active a:focus, .custom-pagination .next.active a:hover, .custom-pagination .next.active a:focus { color: #fff; }
 
