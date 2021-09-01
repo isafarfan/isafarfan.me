@@ -10,13 +10,18 @@ body {
     padding-bottom: 50px;
 }
 
-.navigation h3{
-  color: #dc3545;
+.navigation h4{
+  color: #0eedcf;
+
+}
+
+.navigation h5{
+  color: #6610f2;
 
 }
 
 .navigation p{
-  color: #555;
+  color: #f9f9f9;
 }
 
 .project {
@@ -34,12 +39,12 @@ body {
   bottom: 0px;
   left: 0px;
   right:0px;
-  background-color:#fff;
-  padding-left: 15px;
+  background-color:#000;
+  padding-left: 0px;
 }
 
 .text-block h3{
-  color: #dc3545;
+  color: #0eedcf;
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: .1em;
@@ -59,7 +64,7 @@ body {
 
 .templateux-navbar {
   position: inherit;
-  background-color: #fff;
+  background-color: #000;
   padding: 18px 0;
 }
 
@@ -86,12 +91,12 @@ body {
   display: block;
   text-transform: uppercase;
   font-size: 18px;
-  color: #555;
-  font-weight: bold;
+  color: #0eedcf;
+ 
 }
 
 .bg-grey {
-  background-color: #f7f7f7;
+  background-color: #2B303A;
 }
 
 .templateux-hero, .intro {
@@ -99,15 +104,17 @@ body {
 }
 
 .templateux-hero {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .templateux-section {
-  padding: 3em 0 0 0
+  padding: 2em 0 0 0
 }
 
 .templateux-section .row {
+  padding-top: 1em;
   padding-bottom: 2em;
+
 }
 
 .list-group {
